@@ -56,13 +56,15 @@ public class Runner {
 		 
 		 //Q9
 
-		 System.out.println("Enter a date containing 8 digits");
-		 int date = scanner.nextInt();
-		 int year=date%10000;
-		 date/=10000;
-		 int month =date%100;
-		 int day=date/100;
-		 System.out.println("The year is "+year+" the month is "+month+ ", and the day is "+day+".");
+//		 System.out.println("Enter a date containing 8 digits");
+//		 int date = scanner.nextInt();
+//		 int year=date%10000;
+//		 date/=10000;
+//		 int month =date%100;
+//		 int day=date/100;
+//		 System.out.println("The year is "+year+" the month is "+month+ ", and the day is "+day+".");
+		 
+		 scanner.close();
 	}
 
 }
