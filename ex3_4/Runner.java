@@ -196,6 +196,23 @@ public class Runner {
 //		}
 		
 		//Q16
+		int sum1=0,sum2=0;
+		for (int i = 220; i < 66992; i++) {
+			for(int j=i+1;j<=66992; j++) {
+				sum1=0;
+				sum2=0;
+				for(int k=1;k<j;k++) {
+					if(i%k==0 && k<i)
+						sum1+=k;
+					if(j%k==0)
+						sum2+=k;
+				}
+				if(sum1==j && sum2==i) {
+					System.out.println(i+" and "+j+ " are mates");
+					break;
+				}
+			}
+		}
 		
 		
 		
