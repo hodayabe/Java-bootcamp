@@ -1,0 +1,32 @@
+[
+	{
+		"name": "pizza",
+		"calories": 2000.0,
+		"label": "DAIRY",
+		"Ingredients": [
+			{
+				"name": "sugar",
+				"weight": 200.0
+			},
+			{
+				"name": "flour",
+				"weight": 500.0
+			}
+		]
+	},
+	{
+		"name": "bread",
+		"calories": 2000.0,
+		"label": "DAIRY",
+		"Ingredients": [
+			{
+				"name": "sugar",
+				"weight": 200.0
+			},
+			{
+				"name": "flour",
+				"weight": 500.0
+			}
+		]
+	}
+]

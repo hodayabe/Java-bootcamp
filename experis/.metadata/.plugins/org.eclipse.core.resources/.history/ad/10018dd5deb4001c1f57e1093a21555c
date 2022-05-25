@@ -1,0 +1,18 @@
+package javabootcamp.basic.methods;
+
+import java.util.Scanner;
+
+public class Runner {
+	
+	public static void name() {
+		System.out.println("Hodaya David 23");
+	}
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		name();
+	
+		
+		scanner.close();
+	}
+
+}

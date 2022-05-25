@@ -1,0 +1,32 @@
+package javabootcamp.basic.ex5;
+
+public class Runner {
+
+	public static void main(String[] args) {
+	//Q1	
+	int	arr1[]= {1,2,3,4,5};
+	int	arr2[]= {5,4,3,2,1};
+	int reversed=0,notReversed=0;
+	for (int i = 0; i < arr1.length; i++) {
+		if((arr1[i]!=arr1[arr1.length-1-i])&&(arr1[i]!=arr1[i])) {
+			System.out.println("The arrays are different");
+			break;
+		}
+		if(arr1[i]==arr1[arr1.length-1-i])
+			reversed++;
+		if(arr1[i]==arr1[i])
+			notReversed++;
+	}
+	
+	if(reversed==arr1.length)
+		System.out.println("The collections are reversed");
+	if(notReversed==arr1.length)
+		System.out.println("The collections are not reversed");
+	
+	
+	//Q3
+//		int	array[]= new int[10];
+		
+	}
+
+}

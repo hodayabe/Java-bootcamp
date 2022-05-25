@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars>
+  <car manufacturer="Ferrari" model="a" year="2020">
+    <LicencePlate plateNumber="123456798" color="blue" />
+  </car>
+  <car manufacturer="Ferrari" model="b" year="2021">
+    <LicencePlate plateNumber="987654321" color="pink" />
+  </car>
+</cars>

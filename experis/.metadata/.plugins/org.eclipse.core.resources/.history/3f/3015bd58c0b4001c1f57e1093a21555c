@@ -1,0 +1,107 @@
+package javabootcamp.basic.userinput.ex3_4;
+
+import java.util.Scanner;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		//3
+		//Q3
+//		int sum =0;
+//		int question;
+//		System.out.println("Relative - 1 ,friend - 2 ,other - 3");
+//		int closeness = scanner.nextInt();
+//		
+//		if( closeness==1)
+//			sum=1000;
+//		else if(closeness==2)
+//			sum=500;
+//		else
+//			sum=250;
+//		
+//		
+//		if(closeness!=1) {
+//			System.out.println("Has the acquaintance with one of the spouses been over 3 years: yes-1,no-2");
+//			question = scanner.nextInt();
+//			if(question==1)
+//				sum+=50;
+//				
+//			System.out.println("Is the travel time for the wedding over an hour: yes -1, no-2");
+//			question = scanner.nextInt();
+//			if(question==1)
+//				sum-=50;
+//		}
+//		
+//		System.out.println("You need to put in the check: "+ sum);
+//		
+		
+		
+		//Q7
+			 
+		double f_score=0;
+		System.out.println("Enter an exam score:");
+		int score = scanner.nextInt();
+		System.out.println("Enter average exercises");
+		int average = scanner.nextInt();
+		System.out.println("Enter a number of exercises");
+		int exercise = scanner.nextInt();
+		
+		if(average==5 || average==6) {
+			if(score<54)
+				f_score= score;
+			else
+				f_score= (score*0.8 + average*0.2);
+		}
+		else if(average==7 || average==8) {
+			if(score<54) {
+				if(average>80) {
+					if((score*0.75 + average*0.25)>score)
+						f_score= (score*0.75 + average*0.25);
+					else
+						f_score= score;
+				}
+				else{//(average<=80)
+					if((score*0.8 + average*0.2)>score)
+						f_score= (score*0.75 + average*0.25);
+					else
+						f_score= score;
+				}
+			}
+			else {
+				f_score= (score*0.7 + average*0.3);
+			}
+		}
+		System.out.println("The final score is: "+ f_score);
+		
+		
+		
+		///////////////4
+		//Q2
+//		int sum,cnt=0,new_num=0,temp;
+//		System.out.println("Enter a number:");
+//		int num = scanner.nextInt();
+//		while(num!=0) {
+//			temp=num%10;
+//			for(int i=0;i<=cnt;i++) 
+//				temp*=10;
+//			sum=temp;
+//			num
+//				
+//		}
+		
+		
+		//
+		
+		
+		
+		
+		
+			  
+		
+		
+		scanner.close();
+
+	}
+
+}

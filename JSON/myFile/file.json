@@ -1,0 +1,44 @@
+{
+	"students": [
+		{
+			"id": "1",
+			"isMale": false,
+			"firstName": "Hodaya",
+			"lastName": "David",
+			"notes":[ {
+				"id": "11",
+				"from": "Hodaya",
+				"to": "Noam",
+				"message": "hello"
+			}
+			]
+		},
+		{
+			"id": "2",
+			"isMale": true,
+			"firstName": "Noam",
+			"lastName": "David",
+			"notes":null
+		},
+		{
+			"id": "3",
+			"isMale": true,
+			"firstName": "Ariel",
+			"lastName": "David",
+			"notes": [
+				{
+					"id": "31",
+					"from": "Ariel",
+					"to": "Noam",
+					"message": "hi"
+				},
+				{
+					"id": "32",
+					"from": "Ariel",
+					"to": "hodaya",
+					"message": "by"
+				}
+			]
+		}
+	]
+}

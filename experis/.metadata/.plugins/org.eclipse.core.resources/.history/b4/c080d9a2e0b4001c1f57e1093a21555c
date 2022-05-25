@@ -1,0 +1,38 @@
+package javabootcamp.basic.methods;
+
+import java.util.Scanner;
+
+public class Runner {
+	
+	public static void printName() {
+		System.out.println("Hodaya David");
+	}
+	public static void printAge() {
+		System.out.println("23");
+	}
+	
+	public static double getAverage(){
+		Scanner scanner = new Scanner(System.in);
+		System.out.print("enter 3 greads");
+		int num1=scanner.nextInt();
+		int num2=scanner.nextInt();
+		int num3=scanner.nextInt();
+		
+		int sum=num1+num2+num3;
+		double average=sum/3.0;
+		return average;
+	}
+			
+	
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println(getAverage());
+		
+		
+	
+		
+		scanner.close();
+	}
+
+}

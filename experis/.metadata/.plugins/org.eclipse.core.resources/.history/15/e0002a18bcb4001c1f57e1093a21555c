@@ -1,0 +1,45 @@
+package javabootcamp.basic.userinput.ex3_4;
+
+import java.util.Scanner;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+        
+		int sum =0;
+		int question;
+		System.out.println("Relative - 1 ,friend - 2 ,other - 3");
+		int closeness = scanner.nextInt();
+		
+		if( closeness==1)
+			sum=1000;
+		else if(closeness==2)
+			sum=500;
+		else
+			sum=250;
+		
+		
+		if(closeness!=1) {
+			System.out.println("Has the acquaintance with one of the spouses been over 3 years: yes-1,no-2");
+			question = scanner.nextInt();
+			if(question==1)
+				sum+=50;
+				
+			System.out.println("Is the travel time for the wedding over an hour: yes -1, no-2");
+			question = scanner.nextInt();
+			if(question==1)
+				sum-=50;
+		}
+		
+		System.out.println("You need to put in the check: "+ sum);
+		  
+			  
+			  
+		
+		
+		scanner.close();
+
+	}
+
+}

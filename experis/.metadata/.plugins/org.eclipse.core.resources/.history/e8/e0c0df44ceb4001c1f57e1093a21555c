@@ -1,0 +1,71 @@
+package javabootcamp.basic.ex5;
+
+import java.security.DrbgParameters.NextBytes;
+import java.util.Scanner;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+	//Q1	
+//	int	arr1[]= {1,2,3,4,5};
+//	int	arr2[]= {5,4,3,2,1};
+//	int reversed=0,notReversed=0;
+//	for (int i = 0; i < arr1.length; i++) {
+//		if((arr1[i]!=arr2[arr1.length-1-i])&&(arr1[i]!=arr2[i])) {
+//			System.out.println("The arrays are different");
+//			break;
+//		}
+//		if(arr1[i]==arr2[arr1.length-1-i])
+//			reversed++;
+//		if(arr1[i]==arr2[i])
+//			notReversed++;
+//	}
+//	
+//	if(reversed==arr1.length)
+//		System.out.println("The collections are reversed");
+//	if(notReversed==arr1.length)
+//		System.out.println("The collections are not reversed");
+	
+	
+	//Q3
+//		int	array[]= new int[10];
+//		
+//		System.out.println("Enter 2 numbers");
+//		array[0]=scanner.nextInt();
+//		array[1]=scanner.nextInt();
+//		
+//		System.out.print(array[0]+","+array[1]+",");
+//		for(int i =2;i<array.length;i++) {
+//			array[i]=array[i-1]+array[i-2];
+//			System.out.print(array[i]+",");
+//		}
+		
+		
+	//Q5
+		
+		int	arr1[]= {1,2,3,4,5};
+		int	arr2[]= {5,1,2,2,4};
+		int cnt=0;
+		for (int i = 0; i < arr2.length-1; i++) {
+			if(arr1[i]!=arr2[i+1]) {
+				System.out.println("fals");
+				break;
+			}
+				
+			else
+				cnt++;
+		}
+		
+		if(cnt==arr2.length-1)
+			if(arr1[arr2.length-1]==arr2[0])
+				System.out.println("true");
+		
+		
+		
+		
+		scanner.close();
+		
+	}
+
+}

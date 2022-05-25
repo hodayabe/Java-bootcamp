@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cars>
+  <car>
+    <manufacturer>Ferrari</manufacturer>
+    <model>a</model>
+    <year>2020</year>
+    <LicencePlate>
+      <plateNumber unique="true">1</plateNumber>
+      <color>blue</color>
+    </LicencePlate>
+  </car>
+  <car>
+    <manufacturer>Lamborigini</manufacturer>
+    <model>b</model>
+    <year>2021</year>
+    <LicencePlate>
+      <plateNumber unique="true">2</plateNumber>
+      <color>pink</color>
+    </LicencePlate>
+  </car>
+</cars>

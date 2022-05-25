@@ -1,0 +1,44 @@
+package javabootcamp.basic.ex2a;
+
+import java.util.Scanner;
+
+public class Runner {
+
+	public static void main(String[] args) {
+		 Scanner scanner = new Scanner(System.in);
+		//Q1
+//		 System.out.println("Please enter yure age");
+//			int age = scanner.nextInt();
+//		 if(age<0)
+//			 System.out.println("invalid");
+//		 else if(age<18)
+//			 System.out.println("you are young");
+//		 else
+//			 System.out.println("you are adult");
+		 
+		 //Q2
+//		 System.out.println("Please enter yure age");
+//			int age = scanner.nextInt();
+//		 if(age<0)
+//			 System.out.println("invalid");
+//		 else if(age<18)
+//			 System.out.println("you are young");
+//		 else if(age>18 && age<65)
+//			 System.out.println("you are adult");
+//		 else
+//			 System.out.println("You're retired");
+		 
+		 //Q3
+		 System.out.println("Please enter a number");
+			int num = scanner.nextInt();
+		 if((num/10)== (num%10))
+			 System.out.println("The digits are the same");
+		 else
+			 System.out.println("The digits are not identical");
+		 
+		 
+		 
+
+	}
+
+}
